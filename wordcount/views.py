@@ -8,7 +8,7 @@ def home(request):
     return render(request, 'home.html', {'prova':'Inserisci il testo'})
 
 def viva(request):
-    return HttpResponse('<h1>Viva la figa!</h1>')
+    return HttpResponse('<h1>Viva la !</h1>')
 
 def about(request):
     return render(request, 'about.html')

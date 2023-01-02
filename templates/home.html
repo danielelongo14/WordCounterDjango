@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WordCount</title>
+</head>
+<body>
+<h1>This is my first Site!
+    It is used to count words!</h1>
+{{  prova }}
+
+<form action="{% url 'count' %}">
+    <textarea cols="40" rows="5" name="fulltext"></textarea>
+    <br/>
+    <input type="submit" value="Count!"/>
+</form>
+</br>
+</br>
+</br>
+</br>
+<form action="{% url 'about' %}">
+    <input type="submit" value="About this site" />
+</form>
+
+
+</body>
+</html>
